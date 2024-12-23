@@ -11,7 +11,7 @@ const Logo = () => {
                 // smooth={true}
                 // duration={500}
             >
-                <Image src={'/avatars/header/logo.png'} width={200} height={80} alt="Logo" />
+                <Image src={'/avatars/header/logo.png'} width={130} height={100} alt="Logo" />
             </Link>
         </Box>
     );

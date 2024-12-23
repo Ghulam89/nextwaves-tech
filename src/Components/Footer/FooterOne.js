@@ -17,7 +17,7 @@ const FooterOne = () => {
     return (
         <Box>
             <Box sx={{ mb: "30px" }}>
-                <Image src={'/avatars/header/logo.png'} width={287} height={100} alt="Logo" />
+                <Image src={'/avatars/header/logo.png'} width={200} height={180} alt="Logo" />
             </Box>
             <Stack direction="row" sx={styles.Address}>
                 <Box>
@@ -48,10 +48,10 @@ const FooterOne = () => {
                     <PhoneIcon />
                 </Box>
                 <Box>
-                    <Link href="tel:+8801552938771">
+                    <Link href="tel:+19173412060">
                         <Link href={'#'}>
                             <Typography variant="body1" component="p">
-                                +880 1552-938771
+                            +19173412060
                             </Typography>
                         </Link> 
                     </Link>
