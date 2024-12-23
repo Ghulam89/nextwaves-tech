@@ -31,6 +31,16 @@ const FooterOne = () => {
             </Stack>
             <Stack direction="row" sx={styles.Address}>
                 <Box>
+                    <MapIcon />
+                </Box>
+                <Box>
+                    <Typography variant="body1" component="p">
+                      125 Park Avenue, 25th Floor, New York, NY 10017
+                    </Typography>
+                </Box>
+            </Stack>
+            <Stack direction="row" sx={styles.Address}>
+                <Box>
                     <EmailIcon />
                 </Box>
                 <Box>
