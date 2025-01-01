@@ -30,7 +30,7 @@ const BottomFooter = () => {
             <Box sx={{ display: { smd: "block", xxs: "none" } }}>
                 <Stack direction="row" sx={{ alignItems: "center",padding:'8px'}}>
                     <Typography variant="body1" component="p" sx={styles.Copyright}>
-                        © {new Date().getFullYear()} Nextwave Tech. All Rights Reserved.
+                        © {new Date().getFullYear()} Nextwaves Technologies. All Rights Reserved.
                     </Typography>
                     {/* <Stack direction="row" sx={styles.Terms}>
                         <ButtonBase>

@@ -7,7 +7,7 @@ import styles from "@/Styles/Header/Bar.styles";
 import { MapIcon, EmailIcon, PhoneIcon, FacebookIcon, TwitterIcon, BehaceIcon } from "@/Utilis/Icons";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from 'next/link';
-import { LinkedIn, LinkOutlined } from '@mui/icons-material';
+import { LinkedIn, LinkOutlined, WhatsApp } from '@mui/icons-material';
 const TopBar = () => {
   return (
     <>
@@ -32,15 +32,23 @@ const TopBar = () => {
             <List sx={{ display: 'flex',alignItems:'center'}} > 
               <ListItem sx={{ display: 'flex', alignItems: 'center', marginRight: 2, flexBasis: 'auto' }}>
                 <HiOutlineMail color='red' size={24} style={{ marginRight: 8 }} />
-                <Typography variant="body2" color="textSecondary">info@company.com</Typography>
+                <Typography variant="body2" color="textSecondary">nextwavestech@gmail.com</Typography>
               </ListItem>
               <ListItem sx={{ display: 'flex', alignItems: 'center', marginRight: 2, flexBasis: 'auto' }}>
                 <IoCall   color='red'  size={24} style={{ marginRight: 8 }} />
-                <Typography variant="body2" color="textSecondary">+92 514 592013</Typography>
+                <Box>
+                <Typography variant="body2" color="textSecondary">+923124885949</Typography>
+                <Typography variant="body2" color="textSecondary">+966597273270</Typography>
+                </Box>
+                
               </ListItem>
               <ListItem sx={{ display: 'flex', alignItems: 'center', marginRight: 2, flexBasis: 'auto' }}>
                 <TbDeviceLandlinePhone  color='red'  size={24} style={{ marginRight: 8 }} />
-                <Typography variant="body2" color="textSecondary">+92 514 592013</Typography>
+                <Box>
+                <Typography variant="body2" color="textSecondary">+923704559129</Typography>
+                <Typography variant="body2" color="textSecondary">+19173412060</Typography>
+                </Box>
+                
               </ListItem>
             </List>
           </Box>
@@ -97,7 +105,7 @@ const TopBar = () => {
              <Link href="https://twitter.com/codestation21">
                    <Link href={'#'} >
                         <ButtonBase>
-                            <TwitterIcon />
+                            <WhatsApp />
                         </ButtonBase>
                     </Link>
              </Link> 

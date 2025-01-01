@@ -11,7 +11,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 //Styles
 import styles from "@/Styles/Footer/FooterOne.styles";
-import { LinkedIn } from "@mui/icons-material";
+import { LinkedIn, WhatsApp } from "@mui/icons-material";
 
 const FooterOne = () => {
     return (
@@ -47,7 +47,7 @@ const FooterOne = () => {
                     <Link href="mailto:info@codestation21.com">
                         <Link href={'#'}>
                             <Typography variant="body1" component="p">
-                                Nextwavestech@gmail.com
+                            nextwavestech@gmail.com
                             </Typography>
                         </Link> 
                      </Link> 
@@ -61,7 +61,7 @@ const FooterOne = () => {
                     <Link href="tel:+19173412060">
                         <Link href={'#'}>
                             <Typography variant="body1" component="p">
-                            +19173412060
+                            +923124885949
                             </Typography>
                         </Link> 
                     </Link>
@@ -85,7 +85,7 @@ const FooterOne = () => {
              <Link href="https://twitter.com/codestation21">
                    <Link href={'#'} >
                         <ButtonBase>
-                            <TwitterIcon />
+                            <WhatsApp />
                         </ButtonBase>
                     </Link>
              </Link> 
