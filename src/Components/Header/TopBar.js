@@ -46,7 +46,7 @@ const TopBar = () => {
                 <TbDeviceLandlinePhone  color='red'  size={24} style={{ marginRight: 8 }} />
                 <Box>
                 <Typography variant="body2" color="textSecondary">+923704559129</Typography>
-                <Typography variant="body2" color="textSecondary">+19173412060</Typography>
+                {/* <Typography variant="body2" color="textSecondary">+19173412060</Typography> */}
                 </Box>
                 
               </ListItem>
